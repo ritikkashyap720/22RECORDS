@@ -8,7 +8,7 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background-color: rgb(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0);
 }
 
 /* Handle */
@@ -31,14 +31,15 @@
     font-family: 'Righteous', cursive;
 
 }
+.card, .work-card{
+    user-select: none;
+}
 
 body {
     background-color: #eeebe2;
    
 }
-.card, .work-card{
-    user-select: none;
-}
+
 /* animations */
 .hidden {
     opacity: 0;
@@ -673,8 +674,7 @@ body {
 }
 .dev-contact{
     background-color: #262626;
-    font-size: 12px;
-    padding: 30px;
+   margin-top: 100px;
 }
 .dev-contact p a{
     color:white;
@@ -683,10 +683,12 @@ body {
     height: 14px;
 }
 .dev-contact p{
+    font-size: 12px;
     color:white;
     text-align: center;
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 /* responsive */
