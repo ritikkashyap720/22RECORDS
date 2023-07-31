@@ -650,6 +650,10 @@ body {
     margin-right: 30px;
 }
 
+.contact {
+    margin-top: 50px;
+}
+
 .phone a,
 .email a {
     text-decoration: underline;
@@ -670,7 +674,7 @@ body {
 }
 .dev-contact{
     background-color: #262626;
-   margin-top: 100px;
+   margin: 100px 0 100px 0;
 }
 .dev-contact p a{
     color:white;
@@ -684,7 +688,7 @@ body {
     text-align: center;
     display: flex;
     justify-content: center;
-    margin-bottom: 100px;
+    margin: 0;
 }
 
 /* responsive */
