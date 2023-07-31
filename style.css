@@ -253,7 +253,7 @@ body {
 }
 
 .ctr {
-    background-image: url("/images/IMG20230414143119.jpg");
+    background-image: url("images/IMG20230414143119.jpg");
     /* height: 300px; */
     background-repeat: no-repeat;
     background-size: cover;
