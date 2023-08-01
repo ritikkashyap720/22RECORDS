@@ -615,11 +615,6 @@ body {
     transition-delay: 1000ms;
 }
 
-.icon:nth-child(7) {
-    z-index: 1;
-    transition-delay: 1200ms;
-}
-
 /* contact */
 
 .contact {
