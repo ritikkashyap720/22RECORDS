@@ -717,7 +717,7 @@ body {
 
     .parnters {
         display: grid;
-        grid-template-columns: auto auto auto auto;
+        grid-template-columns: auto auto auto;
     }
 
     .nav-show {
